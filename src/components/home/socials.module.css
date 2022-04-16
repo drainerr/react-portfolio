@@ -1,0 +1,31 @@
+.list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  position: absolute;
+  bottom: 30px;
+  padding: 0 20px;
+  font-size: 2.2rem;
+  padding-top: 6px;
+}
+
+.list a:nth-child(2):hover {
+  color: #0072b1;
+}
+.list a:nth-child(3):hover {
+  color: #00acee;
+}
+.list a:nth-child(4):hover {
+  color: crimson;
+}
+
+.list a {
+  transition: 0.25s ease-out;
+}
+.list a:hover {
+  transform: scale(1.2, 1.2);
+  /* transform: rotate(360deg); */
+  cursor: pointer;
+}

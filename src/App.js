@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import HamburgerToggle from './components/navbar/hamburgerToggle';
+import Main from './components/home/main';
+import Navbar from './components/navbar/navbar';
+import { Routes, Route, Navigate } from 'react-router-dom';
+import About from './components/about/about';
+import Projects from './components/projects/projects';
 
 function App() {
+  const [isNavbarShown, setIsNavbarShown] = useState(false);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <HamburgerToggle getNavbar={isNavbarShown} setNavbar={setIsNavbarShown} />
+      <Navbar getNavbar={isNavbarShown} setNavbar={setIsNavbarShown} />
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/Projects" element={<Projects />} />
+        <Route path="*" element={<Navigate to="/" />} />
+      </Routes>
     </div>
   );
 }
