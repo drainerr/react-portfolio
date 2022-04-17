@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&family=Poppins:ital,wght@0,300;0,400;0,500;1,600&family=Quantico:ital,wght@0,700;1,400&family=Square+Peg&display=swap');
-
-* {
+html {
+  scroll-behavior: smooth;
+}
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 .App {
   text-align: center;
-  background-color: #5daa68;
   color: #e1e2e2;
   overflow-x: hidden;
   position: relative;
@@ -18,7 +21,9 @@
   font-family: 'Lora', serif;
 
   background-image: url('./images/retrowave-bg.gif');
+  background-color: #5daa68;
   background-position: center;
+  background-attachment: fixed;
   background-size: cover;
   background-blend-mode: multiply;
 }
@@ -35,7 +40,7 @@ a {
   transition: 0.2s linear;
 }
 .navigation {
-  position: absolute;
+  position: fixed;
   right: -100%;
   font-size: 3.5rem;
   list-style: none;
