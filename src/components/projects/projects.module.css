@@ -6,7 +6,7 @@
   padding: 0 5%;
   width: 90%;
   top: 0;
-  margin-top: 100px;
+  margin-top: 70px;
   gap: 150px;
   list-style: none;
   padding-bottom: 50px;
@@ -70,19 +70,20 @@
   transform: scale(1.1, 1.1);
 }
 .projects li h4 {
-  border: 2px solid white;
+  border: 2px solid rgba(255, 255, 255, 0.616);
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  padding: 15px 0;
+  padding: 20px 0;
   font-size: 1.8rem;
   background-color: rgba(0, 0, 0, 0.25);
   margin-top: -5px;
   font-family: 'monospace';
   text-shadow: 1px 1px 2px black;
+  transition: color 0.4s ease-out, background 0.4s ease-out;
 }
-.title {
-  position: absolute;
-  top: -70px;
-  font-size: 2.5rem;
-  font-family: monospace;
+
+.projects li:hover h4 {
+  background-color: white;
+  color: rgb(65, 65, 65);
+  border-color: rgb(70, 70, 70);
 }

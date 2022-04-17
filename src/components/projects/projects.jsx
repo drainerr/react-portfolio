@@ -3,7 +3,6 @@ import styles from './projects.module.css';
 const Projects = () => {
   return (
     <ul className={styles.projects}>
-      <h1 className={styles.title}>{`< Projects />`}</h1>
       <li>
         <img src={image} alt="ra" className={styles.img}></img>
         <div className={styles.buttons}>
