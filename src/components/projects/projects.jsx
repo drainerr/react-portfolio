@@ -1,46 +1,17 @@
-import image from '../../images/wp5591516.webp';
+import Project from './project-card';
 import styles from './projects.module.css';
+import List from './projects-list';
 const Projects = () => {
   return (
     <ul className={styles.projects}>
-      <li>
-        <img src={image} alt="ra" className={styles.img}></img>
-        <div className={styles.buttons}>
-          <button>Demo</button>
-          <button>Source Code</button>
-        </div>
-        <div className={styles.details}>
-          <h4>Covid Statistics </h4>
-        </div>
-      </li>
-      <li>
-        <img src={image} alt="ra" className={styles.img}></img>
-        <div className={styles.buttons}>
-          <button>Demo</button>
-          <button>Source Code</button>
-        </div>
-        <div className={styles.details}>
-          <h4>Covid Statistics </h4>
-        </div>
-      </li>
-      <li>
-        <img src={image} alt="ra" className={styles.img}></img>
-      </li>
-      <li>
-        <img src={image} alt="ra" className={styles.img}></img>
-      </li>
-      <li>
-        <img src={image} alt="ra" className={styles.img}></img>
-      </li>
-      <li>
-        <img src={image} alt="ra" className={styles.img}></img>
-      </li>
-      <li>
-        <img src={image} alt="ra" className={styles.img}></img>
-      </li>
-      <li>
-        <img src={image} alt="ra" className={styles.img}></img>
-      </li>
+      {List.map((project) => (
+        <Project
+          name={project.name}
+          techs={project.techs}
+          demo={project.demo}
+          code={project.code}
+        />
+      ))}
     </ul>
   );
 };
