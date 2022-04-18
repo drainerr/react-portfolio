@@ -10,6 +10,7 @@ const Projects = () => {
           techs={project.techs}
           demo={project.demo}
           code={project.code}
+          img={project.image}
         />
       ))}
     </ul>

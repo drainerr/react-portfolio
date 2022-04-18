@@ -4,30 +4,37 @@
   flex-wrap: wrap;
   justify-content: center;
   padding: 0 5%;
-  width: 90%;
+  width: 100%;
   top: 0;
-  margin-top: 70px;
-  gap: 150px;
+  margin-top: 100px;
+  gap: 180px 10vw;
   list-style: none;
-  padding-bottom: 50px;
+  padding-bottom: 150px;
 }
 .projects li {
   width: 450px;
   height: 450px;
   position: relative;
   font-size: 1.5rem;
-  background-color: rgba(0, 0, 0, 0.2);
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
-    rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 .projects li img {
   width: inherit;
   height: inherit;
-  border-radius: 5px;
+  padding: 25px 25px 15px 25px;
+  background-color: rgba(0, 0, 0, 0.45);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }
 .projects li:hover {
   cursor: pointer;
+}
+
+.buttons,
+.projects li img {
+  border-top: white 3px solid;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
 }
 .buttons {
   display: flex;
@@ -43,20 +50,18 @@
   top: 0;
 }
 .buttons:hover {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 .buttons:hover > a {
   transform: translateY(0);
   opacity: 1;
 }
 .buttons a {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   padding: 5px 15px;
   border-radius: 5px;
-
   background-color: white;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
-    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+
   color: rgb(77, 77, 77);
   text-shadow: 1px 1px 1px black;
   font-family: 'Quantico';
@@ -77,16 +82,20 @@
   border-bottom-right-radius: 20px;
   padding: 15px 0;
   font-size: 2rem;
-  background-color: rgba(0, 0, 0, 0.25);
+  background-color: rgba(0, 0, 0, 0.45);
   margin-top: -5px;
   font-family: 'Quantico';
   text-shadow: 1px 1px 1px black;
-  transition: color 0.3s ease-in, background 0.3s ease-in;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
-    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  transition: color 0.3s ease, background 0.3s ease;
 }
 
 .projects li:hover h4 {
   background-color: white;
   color: rgb(109, 108, 108);
+}
+.title {
+  position: absolute;
+  font-size: 2.5rem;
+  top: -100px;
+  font-family: 'Quantico';
 }
