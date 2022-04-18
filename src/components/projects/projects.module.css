@@ -65,7 +65,7 @@
   font-family: 'Quantico';
   transition: 0.3s ease;
   opacity: 0;
-  transform: translateY(60px);
+  transform: translateY(-60px);
 }
 .buttons a:hover {
   background-color: darkslategray;
@@ -97,6 +97,27 @@
   top: -140px;
   font-family: 'Quantico';
 }
+.techs {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  top: 250px;
+  opacity: 0;
+  transition: 0.3s ease;
+  transform: translateY(20px);
+}
+.techs > li {
+  text-transform: capitalize;
+  font-family: 'Quantico';
+  font-size: 2rem;
+}
+.buttons:hover > .techs {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 @media screen and (max-width: 480px) {
   .title {
     left: 20px;

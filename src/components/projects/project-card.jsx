@@ -12,6 +12,11 @@ const Project = (props) => {
         <a href={code} target="_blank" rel="noreferrer">
           Source Code
         </a>
+        <ul className={styles.techs}>
+          {techs.map((tech) => (
+            <li>{tech}</li>
+          ))}
+        </ul>
       </div>
       <div className={styles.details}>
         <h4>{name}</h4>
