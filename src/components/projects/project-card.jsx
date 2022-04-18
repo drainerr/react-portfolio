@@ -1,5 +1,4 @@
 import styles from './projects.module.css';
-import image from '../../images/wp5591516.webp';
 
 const Project = (props) => {
   const { name, techs, code, demo, img } = props;
@@ -7,10 +6,10 @@ const Project = (props) => {
     <li>
       <img src={img} alt={name} className={styles.img}></img>
       <div className={styles.buttons}>
-        <a href={demo} target="_blank">
+        <a href={demo} target="_blank" rel="noreferrer">
           Demo
         </a>
-        <a href={code} target="_blank">
+        <a href={code} target="_blank" rel="noreferrer">
           Source Code
         </a>
       </div>

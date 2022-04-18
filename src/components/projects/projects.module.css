@@ -6,14 +6,14 @@
   padding: 0 5%;
   width: 100%;
   top: 0;
-  margin-top: 100px;
-  gap: 180px 10vw;
+  margin-top: 150px;
+  gap: 120px 50px;
   list-style: none;
   padding-bottom: 150px;
 }
 .projects li {
-  width: 450px;
-  height: 450px;
+  width: 300px;
+  height: 300px;
   position: relative;
   font-size: 1.5rem;
 }
@@ -21,10 +21,10 @@
 .projects li img {
   width: inherit;
   height: inherit;
-  padding: 25px 25px 15px 25px;
-  background-color: rgba(0, 0, 0, 0.45);
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
-    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  padding: 15px;
+  padding-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.25);
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
 }
 .projects li:hover {
   cursor: pointer;
@@ -32,9 +32,9 @@
 
 .buttons,
 .projects li img {
-  border-top: white 3px solid;
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
+  border-top: 3px white solid;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 .buttons {
   display: flex;
@@ -50,20 +50,18 @@
   top: 0;
 }
 .buttons:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.75);
 }
 .buttons:hover > a {
   transform: translateY(0);
   opacity: 1;
 }
 .buttons a {
-  font-size: 2.3rem;
+  font-size: 1.7rem;
   padding: 5px 15px;
   border-radius: 5px;
   background-color: white;
-
   color: rgb(77, 77, 77);
-  text-shadow: 1px 1px 1px black;
   font-family: 'Quantico';
   transition: 0.3s ease;
   opacity: 0;
@@ -78,11 +76,11 @@
 
 .projects li h4 {
   border: 2px solid white;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  padding: 15px 0;
-  font-size: 2rem;
-  background-color: rgba(0, 0, 0, 0.45);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 10px 0;
+  font-size: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.25);
   margin-top: -5px;
   font-family: 'Quantico';
   text-shadow: 1px 1px 1px black;
@@ -96,6 +94,12 @@
 .title {
   position: absolute;
   font-size: 2.5rem;
-  top: -100px;
+  top: -140px;
   font-family: 'Quantico';
+}
+@media screen and (max-width: 480px) {
+  .title {
+    left: 20px;
+    font-size: 2rem;
+  }
 }

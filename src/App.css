@@ -30,11 +30,16 @@ a {
 }
 .nav-toggle {
   position: absolute;
-  font-size: 2rem;
+  font-size: 2.5rem;
   top: 10px;
   right: 10px;
   z-index: 2;
   transition: 0.2s linear;
+}
+@media screen and (max-width: 480px) {
+  .nav-toggle {
+    font-size: 2.2rem;
+  }
 }
 .navigation {
   position: fixed;

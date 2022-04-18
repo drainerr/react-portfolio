@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import Resume from '../../Resume.pdf';
+import Resume from '../../Giorgi-Kvrivishvili-Resume.pdf';
 
 const Navbar = (props) => {
   const { getNavbar, setNavbar } = props;

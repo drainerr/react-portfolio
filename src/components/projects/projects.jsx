@@ -4,6 +4,7 @@ import List from './projects-list';
 const Projects = () => {
   return (
     <ul className={styles.projects}>
+      <h1 className={styles.title}>{'< Projects />'}</h1>
       {List.map((project) => (
         <Project
           name={project.name}
