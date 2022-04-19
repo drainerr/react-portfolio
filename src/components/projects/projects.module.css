@@ -45,16 +45,16 @@
 }
 .details:hover {
   background-color: rgba(0, 0, 0, 0.85);
-  border-color: lavender;
+  border-color: white;
 }
 .details a {
   font-size: 1.3rem;
   padding: 5px 15px;
   border-radius: 5px;
   min-width: 50%;
-  border: 2px solid lavender;
+  border: 2px solid white;
   background-color: rgba(0, 0, 0, 0.22);
-  color: lavender;
+  color: white;
   font-family: 'Quantico';
   transition: 0.3s ease;
   opacity: 0;
@@ -65,14 +65,14 @@
   opacity: 1;
 }
 .details a:hover {
-  background-color: lavender;
+  background-color: white;
   color: rgb(46, 45, 45);
 }
 
 .project h4 {
   font-size: 2.3rem;
   font-family: 'Quantico';
-  color: lavender;
+  color: white;
   position: absolute;
   width: 100%;
   top: 10%;
@@ -102,7 +102,7 @@
   width: 100%;
   top: 80%;
   opacity: 0;
-  color: lavender;
+  color: white;
   transition: 0.3s ease;
   transform: translateX(180px);
 }
@@ -121,14 +121,16 @@
   position: absolute;
 }
 .leftArrow {
-  left: 0;
+  left: 0px;
 }
 .rightArrow {
-  right: 0;
+  right: 0px;
 }
 .leftArrow :hover,
 .rightArrow :hover {
   cursor: pointer;
+  color: white;
+  transition: 0.3s ease;
 }
 @media screen and (max-width: 576px) {
   .project {
