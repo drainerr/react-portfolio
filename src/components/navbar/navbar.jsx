@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import Resume from '../../Giorgi-Kvrivishvili-Resume.pdf';
+// import Resume from '../../Resume.pdf';
 
 const Navbar = (props) => {
   const { getNavbar, setNavbar } = props;
@@ -12,9 +12,9 @@ const Navbar = (props) => {
       <NavLink to="/Projects" onClick={handleClick}>
         Projects
       </NavLink>
-      <a href={Resume} download onClick={handleClick}>
+      {/* <a href={Resume} download onClick={handleClick}>
         Resume
-      </a>
+      </a> */}
       <NavLink to="/About" onClick={handleClick}>
         About
       </NavLink>
