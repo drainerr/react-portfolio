@@ -3,7 +3,6 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  margin-top: 20px;
   list-style: none;
 }
 .project {
@@ -22,8 +21,8 @@
 .project img {
   width: inherit;
   height: inherit;
-  padding: 20px;
-  background-color: rgba(230, 230, 250, 0.15);
+  padding: 25px;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 .project:hover {
   cursor: pointer;
@@ -39,10 +38,10 @@
   min-width: 50%;
   gap: 20px;
   position: absolute;
-  transition: 0.3s ease;
+  transition: 0.5s ease;
   top: 0;
   overflow: hidden;
-  border: 3px solid transparent;
+  border: 2px solid transparent;
 }
 .details:hover {
   background-color: rgba(0, 0, 0, 0.85);
@@ -57,9 +56,12 @@
   background-color: rgba(0, 0, 0, 0.22);
   color: white;
   font-family: 'Quantico';
-  transition: 0.3s ease;
+  transition: 0.4s ease;
   opacity: 0;
   transform: translateX(-150px);
+}
+.details a:nth-child(3) {
+  transition: 0.4s ease-out;
 }
 .details:hover > a {
   transform: translateX(0);
@@ -79,7 +81,7 @@
   top: 10%;
   left: 0;
   opacity: 0;
-  transition: 0.3s ease;
+  transition: 0.5s ease;
   transform: translateX(90px);
 }
 .details:hover > h4 {
@@ -120,6 +122,7 @@
 .rightArrow {
   font-size: 2.5rem;
   position: absolute;
+  cursor: pointer;
 }
 .leftArrow {
   left: 0px;
@@ -127,11 +130,24 @@
 .rightArrow {
   right: 0px;
 }
-.leftArrow :hover,
-.rightArrow :hover {
+.dots {
+  position: absolute;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  bottom: 10px;
+  font-size: 1.7rem;
+}
+.dot {
+  color: rgba(255, 255, 255, 0.4);
+}
+.dot:hover {
   cursor: pointer;
+  color: rgba(255, 255, 255, 0.6);
+}
+.dot.active {
   color: white;
-  transition: 0.3s ease;
 }
 @media screen and (max-width: 576px) {
   .project {
@@ -165,5 +181,11 @@
   .project {
     width: 250px;
     height: 250px;
+  }
+  .project img {
+    padding: 15px;
+  }
+  .dots {
+    bottom: 80px;
   }
 }

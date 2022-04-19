@@ -30,6 +30,13 @@ const List = [
     image: require('../../images/projects/Country-Quizz.png'),
   },
   {
+    name: 'Pomodoro (25+5 Clock)',
+    techs: [<Html />, <Sass />, <Js />],
+    demo: 'https://georgekvr.github.io/25-5-Clock/',
+    code: 'https://github.com/GeorgeKVR/25-5-Clock/',
+    image: require('../../images/projects/Pomodoro.png'),
+  },
+  {
     name: 'Arbeitnow Jobs',
     techs: [<React />, <Css />],
     demo: 'https://georgekvr.github.io/Arbeitnow-Jobs',
@@ -56,13 +63,6 @@ const List = [
     demo: 'https://georgekvr.github.io/Simple-Todo/',
     code: 'https://github.com/GeorgeKVR/Simple-Todo/',
     image: require('../../images/projects/Todo.png'),
-  },
-  {
-    name: 'Pomodoro',
-    techs: [<Html />, <Sass />, <Js />],
-    demo: 'https://georgekvr.github.io/25-5-Clock/',
-    code: 'https://github.com/GeorgeKVR/25-5-Clock/',
-    image: require('../../images/projects/Js-calculator.png'),
   },
   {
     name: 'Drumpad',

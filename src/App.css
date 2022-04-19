@@ -37,8 +37,8 @@ a {
   transition: 0.2s linear;
 }
 .project {
-  opacity: 0;
-  transition: 0.4s linear;
+  opacity: 0.3;
+  transition: 0.3s linear;
 }
 .project.active {
   opacity: 1;
