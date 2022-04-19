@@ -3,9 +3,10 @@ import styles from './projects.module.css';
 const Project = (props) => {
   const { name, techs, code, demo, img } = props;
   return (
-    <li>
+    <li className={styles.project}>
       <img src={img} alt={name} className={styles.img}></img>
-      <div className={styles.buttons}>
+      <div className={styles.details}>
+        <h4>{name}</h4>
         <a href={demo} target="_blank" rel="noreferrer">
           Demo
         </a>
@@ -17,9 +18,6 @@ const Project = (props) => {
             <li>{tech}</li>
           ))}
         </ul>
-      </div>
-      <div className={styles.details}>
-        <h4>{name}</h4>
       </div>
     </li>
   );

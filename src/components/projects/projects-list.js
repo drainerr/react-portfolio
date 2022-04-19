@@ -4,7 +4,7 @@ const List = [
   {
     name: 'List Of Countries',
     techs: [<React />],
-    demo: 'https://georgekvr.github.io/',
+    demo: 'https://georgekvr.github.io/Countries',
     code: 'https://github.com/GeorgeKVR/Countries/tree/main/src',
     image: require('../../images/projects/Countries.png'),
   },
@@ -32,7 +32,7 @@ const List = [
   {
     name: 'Arbeitnow Jobs',
     techs: [<React />, <Css />],
-    demo: 'https://georgekvr.github.io/',
+    demo: 'https://georgekvr.github.io/Arbeitnow-Jobs',
     code: 'https://github.com/GeorgeKVR/Arbeitnow-Jobs/tree/main/src',
     image: require('../../images/projects/joblanding.png'),
   },
@@ -70,13 +70,6 @@ const List = [
     demo: 'https://georgekvr.github.io/Drum-Machine/',
     code: 'https://github.com/GeorgeKVR/Drum-Machine/',
     image: require('../../images/projects/drum-machine.png'),
-  },
-  {
-    name: 'Markdown Previewer',
-    techs: [<Html />, <Sass />, <Js />],
-    demo: 'https://georgekvr.github.io/Markdown-Previewer/',
-    code: 'https://github.com/GeorgeKVR/Markdown-Previewer',
-    image: require('../../images/projects/Markdown-previewer.png'),
   },
 ];
 
