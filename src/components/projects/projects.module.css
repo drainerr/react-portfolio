@@ -10,8 +10,8 @@
   height: 450px;
   position: relative;
   font-size: 1.5rem;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
-    rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   border-radius: 10px;
 }
 .project img,
@@ -21,7 +21,7 @@
 .project img {
   width: inherit;
   height: inherit;
-  padding: 25px;
+  padding: 25px 0;
   background-color: rgba(255, 255, 255, 0.1);
 }
 .project:hover {
@@ -55,7 +55,7 @@
   border: 2px solid white;
   background-color: rgba(0, 0, 0, 0.22);
   color: white;
-  font-family: 'Quantico';
+  font-family: "Quantico";
   transition: 0.4s ease;
   opacity: 0;
   transform: translateX(-150px);
@@ -74,7 +74,7 @@
 
 .project h4 {
   font-size: 2.3rem;
-  font-family: 'Quantico';
+  font-family: "Quantico";
   color: white;
   position: absolute;
   width: 100%;
@@ -92,7 +92,7 @@
 .title {
   position: absolute;
   font-size: 2.5rem;
-  font-family: 'Quantico';
+  font-family: "Quantico";
   top: 0;
   display: none;
 }
@@ -111,7 +111,7 @@
 }
 .techs > li {
   text-transform: capitalize;
-  font-family: 'Quantico';
+  font-family: "Quantico";
   font-size: 2rem;
 }
 .details:hover > .techs {
