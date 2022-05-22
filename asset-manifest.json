@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.cf433a6f.css",
-    "main.js": "/react-portfolio/static/js/main.e2341258.js",
+    "main.js": "/react-portfolio/static/js/main.39d9ce3f.js",
     "static/media/retrowave-bg.gif": "/react-portfolio/static/media/retrowave-bg.5c5758914f344dec8207.gif",
     "static/media/Covid-Tracker.png": "/react-portfolio/static/media/Covid-Tracker.b14e5cbfbe7de6374bdf.png",
     "static/media/nav-bg.jpg": "/react-portfolio/static/media/nav-bg.ce721411872328c86264.jpg",
-    "static/media/Windbnb.png": "/react-portfolio/static/media/Windbnb.8eef179193f7daaf53d9.png",
-    "static/media/Pomodoro.png": "/react-portfolio/static/media/Pomodoro.c910c2e250ac5c4b5f07.png",
-    "static/media/space-tourism.png": "/react-portfolio/static/media/space-tourism.87baee49b5e7c0ddb76b.png",
-    "static/media/joblanding.png": "/react-portfolio/static/media/joblanding.9d11073be270f6d3ae1c.png",
-    "static/media/Todo.png": "/react-portfolio/static/media/Todo.05e06b7779fe2ee7f4b1.png",
+    "static/media/Windbnb.png": "/react-portfolio/static/media/Windbnb.79b5058c8eba5b2bdbf8.png",
+    "static/media/space-tourism.png": "/react-portfolio/static/media/space-tourism.afd43e16710100040a1f.png",
+    "static/media/joblanding.png": "/react-portfolio/static/media/joblanding.94f575e803ea5fc9a3b2.png",
+    "static/media/Pomodoro.png": "/react-portfolio/static/media/Pomodoro.a4928ffb1fd1764462ee.png",
+    "static/media/Todo.png": "/react-portfolio/static/media/Todo.80e17042a83bccd96dd6.png",
+    "static/media/Country-Quizz.png": "/react-portfolio/static/media/Country-Quizz.febb4d9ba5b606579a7c.png",
     "static/media/virtual-keyboard.png": "/react-portfolio/static/media/virtual-keyboard.3001d438466943b7047c.png",
-    "static/media/Country-Quizz.png": "/react-portfolio/static/media/Country-Quizz.397f87b07b21dbc96eaa.png",
     "static/media/Countries.png": "/react-portfolio/static/media/Countries.01e8450234cc23db9717.png",
-    "static/media/drum-machine.png": "/react-portfolio/static/media/drum-machine.46ffdc7af64a2808d4be.png",
+    "static/media/drum-machine.png": "/react-portfolio/static/media/drum-machine.eae04e01a6ede21b6bb7.png",
     "index.html": "/react-portfolio/index.html",
     "main.cf433a6f.css.map": "/react-portfolio/static/css/main.cf433a6f.css.map",
-    "main.e2341258.js.map": "/react-portfolio/static/js/main.e2341258.js.map"
+    "main.39d9ce3f.js.map": "/react-portfolio/static/js/main.39d9ce3f.js.map"
   },
   "entrypoints": [
     "static/css/main.cf433a6f.css",
-    "static/js/main.e2341258.js"
+    "static/js/main.39d9ce3f.js"
   ]
 }
