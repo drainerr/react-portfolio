@@ -1,12 +1,12 @@
-import Project from './project-card';
-import styles from './projects.module.css';
-import List from './projects-list';
-import { useState } from 'react';
+import Project from "./project-card";
+import styles from "./projects.module.css";
+import List from "./projects-list";
+import { useState } from "react";
 import {
   BsFillArrowRightSquareFill as RightArrow,
   BsFillArrowLeftSquareFill as LeftArrow,
-} from 'react-icons/bs';
-import { GoPrimitiveDot } from 'react-icons/go';
+} from "react-icons/bs";
+import { GoPrimitiveDot } from "react-icons/go";
 
 const Projects = () => {
   const [currCard, setCurrCard] = useState(0);
@@ -22,16 +22,17 @@ const Projects = () => {
 
   return (
     <ul className={styles.projects}>
-      <h1 className={styles.title}>{'<Projects/>'}</h1>
+      <h1 className={styles.title}>{"<Projects/>"}</h1>
       <ul className={styles.dots}>
         {List.map((el, index) => (
           <li className={index === currCard ? styles.dot.active : styles.dot}>
             <GoPrimitiveDot onClick={() => setCurrCard(index)} />
+            <span>{el.name}</span>
           </li>
         ))}
       </ul>
       {List.map((project, index) => (
-        <div className={index === currCard ? 'project active' : 'project'}>
+        <div className={index === currCard ? "project active" : "project"}>
           {currCard === index && (
             <Project
               name={project.name}

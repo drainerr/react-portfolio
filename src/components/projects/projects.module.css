@@ -141,14 +141,27 @@
 }
 .dot {
   color: rgba(255, 255, 255, 0.4);
+  position: relative;
 }
 .dot:hover {
   cursor: pointer;
   color: rgba(255, 255, 255, 0.6);
 }
+.dot:hover > span {
+  display: block;
+}
 .dot.active {
   color: white;
 }
+.dots span {
+  font-size: 1.2rem;
+  position: absolute;
+  bottom: 40px;
+  width: max-content;
+  margin-left: -20px;
+  display: none;
+}
+
 @media screen and (max-width: 576px) {
   .project {
     width: 350px;
