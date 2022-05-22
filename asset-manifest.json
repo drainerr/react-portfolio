@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.80177342.css",
-    "main.js": "/react-portfolio/static/js/main.3825a4ba.js",
+    "main.css": "/react-portfolio/static/css/main.cf433a6f.css",
+    "main.js": "/react-portfolio/static/js/main.e2341258.js",
     "static/media/retrowave-bg.gif": "/react-portfolio/static/media/retrowave-bg.5c5758914f344dec8207.gif",
     "static/media/Covid-Tracker.png": "/react-portfolio/static/media/Covid-Tracker.b14e5cbfbe7de6374bdf.png",
     "static/media/nav-bg.jpg": "/react-portfolio/static/media/nav-bg.ce721411872328c86264.jpg",
@@ -15,11 +15,11 @@
     "static/media/Countries.png": "/react-portfolio/static/media/Countries.01e8450234cc23db9717.png",
     "static/media/drum-machine.png": "/react-portfolio/static/media/drum-machine.46ffdc7af64a2808d4be.png",
     "index.html": "/react-portfolio/index.html",
-    "main.80177342.css.map": "/react-portfolio/static/css/main.80177342.css.map",
-    "main.3825a4ba.js.map": "/react-portfolio/static/js/main.3825a4ba.js.map"
+    "main.cf433a6f.css.map": "/react-portfolio/static/css/main.cf433a6f.css.map",
+    "main.e2341258.js.map": "/react-portfolio/static/js/main.e2341258.js.map"
   },
   "entrypoints": [
-    "static/css/main.80177342.css",
-    "static/js/main.3825a4ba.js"
+    "static/css/main.cf433a6f.css",
+    "static/js/main.e2341258.js"
   ]
 }
