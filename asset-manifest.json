@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.cf433a6f.css",
-    "main.js": "/react-portfolio/static/js/main.39d9ce3f.js",
-    "static/media/retrowave-bg.gif": "/react-portfolio/static/media/retrowave-bg.5c5758914f344dec8207.gif",
+    "main.css": "/react-portfolio/static/css/main.9506e823.css",
+    "main.js": "/react-portfolio/static/js/main.48073fd4.js",
     "static/media/Covid-Tracker.png": "/react-portfolio/static/media/Covid-Tracker.b14e5cbfbe7de6374bdf.png",
-    "static/media/nav-bg.jpg": "/react-portfolio/static/media/nav-bg.ce721411872328c86264.jpg",
+    "static/media/main-bg.gif": "/react-portfolio/static/media/main-bg.15408728fa6114b5c22a.gif",
     "static/media/Windbnb.png": "/react-portfolio/static/media/Windbnb.79b5058c8eba5b2bdbf8.png",
     "static/media/space-tourism.png": "/react-portfolio/static/media/space-tourism.afd43e16710100040a1f.png",
     "static/media/joblanding.png": "/react-portfolio/static/media/joblanding.94f575e803ea5fc9a3b2.png",
@@ -15,11 +14,11 @@
     "static/media/Countries.png": "/react-portfolio/static/media/Countries.01e8450234cc23db9717.png",
     "static/media/drum-machine.png": "/react-portfolio/static/media/drum-machine.eae04e01a6ede21b6bb7.png",
     "index.html": "/react-portfolio/index.html",
-    "main.cf433a6f.css.map": "/react-portfolio/static/css/main.cf433a6f.css.map",
-    "main.39d9ce3f.js.map": "/react-portfolio/static/js/main.39d9ce3f.js.map"
+    "main.9506e823.css.map": "/react-portfolio/static/css/main.9506e823.css.map",
+    "main.48073fd4.js.map": "/react-portfolio/static/js/main.48073fd4.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf433a6f.css",
-    "static/js/main.39d9ce3f.js"
+    "static/css/main.9506e823.css",
+    "static/js/main.48073fd4.js"
   ]
 }
