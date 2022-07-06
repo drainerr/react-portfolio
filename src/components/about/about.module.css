@@ -1,56 +1,56 @@
 .about {
-  border-radius: 5px;
-  width: 60%;
-  color: white;
-  /* text-shadow: 1px 1px black; */
-  font-size: 1.45rem;
-  font-family: 'nunito';
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 30px;
-  justify-content: center;
-  text-align: center;
+	border-radius: 5px;
+	width: 60%;
+	color: white;
+	/* text-shadow: 1px 1px black; */
+	font-size: 1.45rem;
+	font-family: 'nunito';
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 30px;
+	justify-content: center;
+	text-align: center;
 }
 .user {
-  color: rgb(96, 155, 155);
+	color: rgb(96, 155, 155);
 }
 .lastlet {
-  position: relative;
+	position: relative;
 }
 .lastlet::after {
-  content: '';
-  position: absolute;
-  bottom: 10px;
-  left: 20px;
-  border-bottom: 2.5px white solid;
-  width: 30px;
-  animation: lastletter 1.5s infinite;
+	content: '';
+	position: absolute;
+	bottom: 10px;
+	left: 20px;
+	border-bottom: 2.5px white solid;
+	width: 30px;
+	animation: lastletter 1.5s infinite;
 }
 @keyframes lastletter {
-  0% {
-    border-color: transparent;
-  }
-  50% {
-    border-color: white;
-  }
-  100% {
-    border-color: transparent;
-  }
+	0% {
+		border-color: transparent;
+	}
+	50% {
+		border-color: white;
+	}
+	100% {
+		border-color: transparent;
+	}
 }
 .skills {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  border-radius: 10px 10px 0px 0px;
-  gap: 20px;
-  position: absolute;
-  left: 20px;
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	border-radius: 10px 10px 0px 0px;
+	gap: 20px;
+	position: absolute;
+	left: 20px;
 }
 .about h1 {
-  font-size: 2.7rem;
-  text-shadow: 1px 1px black;
-  font-family: 'Nunito';
+	font-size: 2.7rem;
+	text-shadow: 1px 1px black;
+	font-family: 'Nunito';
 }
 .html,
 .css,
@@ -58,11 +58,11 @@
 .bash,
 .linux,
 .js {
-  font-size: 2.2rem;
+	font-size: 2.2rem;
 }
 .sass,
 .linux {
-  font-size: 2rem;
+	font-size: 2rem;
 }
 /* .css {
   color: #2965f1;
@@ -85,32 +85,32 @@
   border-radius: 2px;
 } */
 @media only screen and (max-width: 768px) {
-  .about {
-    width: 80%;
-    font-size: 1.2rem;
-    gap: 10px;
-    text-align: left;
-  }
-  .about h1 {
-    font-size: 2rem;
-  }
-  .skills {
-    gap: 10px;
-    flex-direction: row;
-    bottom: 10px;
-    left: unset;
-  }
-  .lastlet::after {
-    width: 25px;
-    left: 15px;
-    bottom: 10px;
-  }
-  .html,
-  .css,
-  .react,
-  .bash,
-  .linux,
-  .js {
-    font-size: 1.5rem;
-  }
+	.about {
+		width: 80%;
+		font-size: 1rem;
+		gap: 10px;
+		text-align: left;
+	}
+	.about h1 {
+		font-size: 1.8rem;
+	}
+	.skills {
+		gap: 10px;
+		flex-direction: row;
+		bottom: 10px;
+		left: unset;
+	}
+	.lastlet::after {
+		width: 25px;
+		left: 15px;
+		bottom: 10px;
+	}
+	.html,
+	.css,
+	.react,
+	.bash,
+	.linux,
+	.js {
+		font-size: 1.5rem;
+	}
 }
