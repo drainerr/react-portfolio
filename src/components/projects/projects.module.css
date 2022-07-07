@@ -4,6 +4,7 @@
 	justify-content: center;
 	width: 100%;
 	list-style: none;
+	position: relative;
 }
 .project {
 	width: 450px;
@@ -136,7 +137,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	bottom: 10px;
+	bottom: -90px;
 	font-size: 1.7rem;
 }
 .dot {
