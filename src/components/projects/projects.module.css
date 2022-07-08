@@ -7,8 +7,8 @@
 	position: relative;
 }
 .project {
-	width: 450px;
-	height: 450px;
+	width: 30vw;
+	height: 30vw;
 	position: relative;
 	font-size: 1.5rem;
 	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
@@ -23,7 +23,7 @@
 	width: inherit;
 	height: inherit;
 	padding: 25px 0;
-	background-color: rgba(255, 255, 255, 0.07);
+	background-color: #4a3b4a85;
 }
 .project:hover {
 	cursor: pointer;
@@ -42,15 +42,14 @@
 	transition: 0.5s ease;
 	top: 0;
 	overflow: hidden;
-	border: 2px solid transparent;
 }
 .details:hover {
-	background-color: rgba(0, 0, 0, 0.85);
-	border-color: white;
+	background-color: #4a3b4af1;
 }
+
 .details a {
 	font-size: 1.3rem;
-	padding: 5px 15px;
+	padding: 5px 12px;
 	border-radius: 5px;
 	min-width: 50%;
 	border: 2px solid white;
@@ -74,7 +73,7 @@
 }
 
 .project h4 {
-	font-size: 2.3rem;
+	font-size: 1.7rem;
 	font-family: 'Quantico';
 	color: white;
 	position: absolute;
@@ -162,11 +161,47 @@
 	margin-left: -20px;
 	display: none;
 }
-
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 1220px) {
+	.details h4 {
+		font-size: 1.6rem;
+	}
+	.details a {
+		font-size: 1.1rem;
+	}
+}
+@media screen and (max-width: 1024px) {
+	.details h4 {
+		font-size: 1.2rem;
+	}
+	.details a {
+		font-size: 0.9rem;
+		padding: 3px 8px;
+	}
+	.techs li {
+		font-size: 1.3rem;
+	}
+}
+@media screen and (max-width: 768px) {
 	.project {
-		width: 350px;
-		height: 350px;
+		margin: auto;
+		--image-width: 55vw;
+		width: var(--image-width);
+		height: calc(var(--image-width) - 5vw);
+	}
+	.details h4 {
+		font-size: 1.7rem;
+	}
+	.details a {
+		font-size: 1.2rem;
+		padding: 5px;
+	}
+	.techs li {
+		font-size: 1.7rem;
+	}
+}
+@media screen and (max-width: 640px) {
+	.project {
+		--image-width: 70vw;
 	}
 	.project h4 {
 		font-size: 1.5rem;
@@ -193,8 +228,8 @@
 		top: 10%;
 	}
 	.project {
-		width: 250px;
-		height: 250px;
+		--image-width: 80vw;
+		height: var(--image-width);
 	}
 	.project img {
 		padding: 15px;
