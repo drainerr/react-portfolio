@@ -16,7 +16,7 @@ const About = () => {
 				knowledge covers the fundamentals of HTML, CSS, Sass, Javascript, React,
 				and related technologies/tools. I haven't got any industrial experience
 				yet. However, I work on my personal projects with full of enthusiasm to
-				improve and broaden my practical skills. You can see them{' '}
+				improve and broaden my practical skills. You can see the projects{' '}
 				<Link to={'/projects'}>
 					<i>here</i>
 				</Link>
