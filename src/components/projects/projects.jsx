@@ -7,7 +7,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/scrollbar';
-import { EffectCoverflow, Scrollbar } from 'swiper';
+import { EffectCoverflow, Scrollbar, Mousewheel } from 'swiper';
 import './swiper.css';
 
 const Projects = () => {
@@ -20,9 +20,10 @@ const Projects = () => {
 		<ul className={styles.projects}>
 			<Swiper
 				slidesPerView={width > 768 ? 3 : 1}
-				modules={[EffectCoverflow, Scrollbar]}
+				modules={[EffectCoverflow, Scrollbar, Mousewheel]}
 				effect={'coverflow'}
 				scrollbar={{ draggable: true }}
+				mousewheel={{sensitivity: 0.1}}
 			>
 				{List.map((project) => (
 					<SwiperSlide>
