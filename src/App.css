@@ -17,9 +17,10 @@
 	align-items: center;
 	font-family: 'Lora', serif;
 
-	background: url('./images/main-bg.gif') no-repeat fixed center;
+	background: url('./images/9a612cd838f386613b8e937531f6a61e.gif') no-repeat fixed center;
+	background-color: #4f2f307d;
+    background-blend-mode: soft-light;
 	background-size: cover;
-	/* background-blend-mode: multiply; */
 }
 a {
 	text-decoration: none;

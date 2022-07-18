@@ -22,8 +22,10 @@ const Projects = () => {
 				slidesPerView={width > 768 ? 3 : 1}
 				modules={[EffectCoverflow, Scrollbar, Mousewheel]}
 				effect={'coverflow'}
+				spaceBetween={65}
 				scrollbar={{ draggable: true }}
 				mousewheel={{sensitivity: 0.1}}
+				
 			>
 				{List.map((project) => (
 					<SwiperSlide>
