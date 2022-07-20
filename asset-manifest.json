@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.010935b6.css",
-    "main.js": "/react-portfolio/static/js/main.c1dcca89.js",
+    "main.css": "/react-portfolio/static/css/main.2821052c.css",
+    "main.js": "/react-portfolio/static/js/main.2ed2e56b.js",
     "static/media/Covid-Tracker.png": "/react-portfolio/static/media/Covid-Tracker.b14e5cbfbe7de6374bdf.png",
     "static/media/Windbnb.png": "/react-portfolio/static/media/Windbnb.79b5058c8eba5b2bdbf8.png",
     "static/media/space-tourism.png": "/react-portfolio/static/media/space-tourism.afd43e16710100040a1f.png",
@@ -9,16 +9,17 @@
     "static/media/yZ0DNKE-min.gif": "/react-portfolio/static/media/yZ0DNKE-min.23c749d24ca9886e54e7.gif",
     "static/media/Pomodoro.png": "/react-portfolio/static/media/Pomodoro.a4928ffb1fd1764462ee.png",
     "static/media/Todo.png": "/react-portfolio/static/media/Todo.80e17042a83bccd96dd6.png",
+    "static/media/Image-gallery.png": "/react-portfolio/static/media/Image-gallery.3a2445d05ee4fd058d58.png",
     "static/media/Country-Quizz.png": "/react-portfolio/static/media/Country-Quizz.febb4d9ba5b606579a7c.png",
     "static/media/virtual-keyboard.png": "/react-portfolio/static/media/virtual-keyboard.3001d438466943b7047c.png",
     "static/media/Countries.png": "/react-portfolio/static/media/Countries.01e8450234cc23db9717.png",
     "static/media/drum-machine.png": "/react-portfolio/static/media/drum-machine.eae04e01a6ede21b6bb7.png",
     "index.html": "/react-portfolio/index.html",
-    "main.010935b6.css.map": "/react-portfolio/static/css/main.010935b6.css.map",
-    "main.c1dcca89.js.map": "/react-portfolio/static/js/main.c1dcca89.js.map"
+    "main.2821052c.css.map": "/react-portfolio/static/css/main.2821052c.css.map",
+    "main.2ed2e56b.js.map": "/react-portfolio/static/js/main.2ed2e56b.js.map"
   },
   "entrypoints": [
-    "static/css/main.010935b6.css",
-    "static/js/main.c1dcca89.js"
+    "static/css/main.2821052c.css",
+    "static/js/main.2ed2e56b.js"
   ]
 }
