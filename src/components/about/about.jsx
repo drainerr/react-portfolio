@@ -1,7 +1,6 @@
 import styles from './about.module.css';
-import { SiGnubash, SiLinux, SiReact, SiCss3, SiHtml5 } from 'react-icons/si';
+import { SiGnubash, SiLinux, SiReact, SiCss3, SiHtml5, SiFirebase } from 'react-icons/si';
 import { IoLogoJavascript, IoLogoSass } from 'react-icons/io';
-import { FcLinux } from 'react-icons/fc';
 import { Link } from 'react-router-dom';
 const About = () => {
 	return (
@@ -11,12 +10,11 @@ const About = () => {
 				<span className={styles.lastlet}>i</span>
 			</h1>
 			<p>
-				I'm <b>George Kvrivishvili</b>, an Information Technology student who
-				decided to learn Web Development and dive into that field. So far my
-				knowledge covers the fundamentals of HTML, CSS, Sass, Javascript, React,
-				and related technologies/tools. I haven't got any industrial experience
-				yet. However, I work on my personal projects with full of enthusiasm to
-				improve and broaden my practical skills. You can see the projects{' '}
+				I'm <b>George Kvrivishvili</b>, an Information Technology student who decided to learn
+				Web Development and dive into that field. So far my knowledge covers the fundamentals of
+				HTML, CSS, Sass, Javascript, React, and related technologies/tools. I haven't got any
+				industrial experience yet. However, I work on my personal projects with full of
+				enthusiasm to improve and broaden my practical skills. You can see the projects{' '}
 				<Link to={'/projects'}>
 					<i>here</i>
 				</Link>
@@ -37,6 +35,9 @@ const About = () => {
 				</li>
 				<li>
 					<SiReact className={styles.react} />
+				</li>
+				<li>
+					<SiFirebase className={styles.firebase} />
 				</li>
 				<li>
 					<SiGnubash className={styles.bash} />
