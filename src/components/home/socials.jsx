@@ -3,11 +3,11 @@ import styles from './socials.module.css';
 const Socials = () => {
   return (
     <ul className={styles.list}>
-      <a href="https://github.com/GeorgeKVR" target="_blank" rel="noreferrer">
+      <a href="https://github.com/drainerr" target="_blank" rel="noreferrer">
         <SiGithub />
       </a>
       <a
-        href="https://www.linkedin.com/in/george-kvrivishvili-5667321b4/"
+        href="https://www.linkedin.com/in/giorgi-kvrivishvili-5667321b4"
         target="_blank"
         rel="noreferrer"
       >
