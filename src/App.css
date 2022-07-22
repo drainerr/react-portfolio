@@ -19,7 +19,7 @@
 
 	background: url('./images/yZ0DNKE-min.gif') no-repeat fixed center;
 	background-color: #4f2f3099;
-    background-blend-mode: saturation;
+	background-blend-mode: saturation;
 	background-size: cover;
 }
 a {
@@ -94,5 +94,13 @@ a {
 
 .nav-toggle:hover {
 	cursor: pointer;
-	color:#785b6d !important;
+	color: #785b6d !important;
+}
+
+@media only screen and (max-width: 420px) {
+	.navigation {
+		font-size: 2rem;
+		width: 80%;
+		background-color: #362a318a;
+	}
 }

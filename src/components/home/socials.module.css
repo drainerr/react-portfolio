@@ -1,31 +1,39 @@
 .list {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-  position: absolute;
-  bottom: 30px;
-  padding: 0 20px;
-  font-size: 2.2rem;
-  padding-top: 6px;
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+	position: absolute;
+	bottom: 30px;
+	padding: 0 20px;
+	font-size: 2.2rem;
+	padding-top: 6px;
 }
 
 .list a:nth-child(2):hover {
-  color: #0072b1;
+	color: #0072b1;
 }
 .list a:nth-child(3):hover {
-  color: #00acee;
+	color: #00acee;
 }
 .list a:nth-child(4):hover {
-  color: crimson;
+	color: crimson;
 }
 
 .list a {
-  transition: 0.25s ease-out;
+	transition: 0.25s ease-out;
 }
 .list a:hover {
-  transform: scale(1.2, 1.2);
-  /* transform: rotate(360deg); */
-  cursor: pointer;
+	transform: scale(1.2, 1.2);
+	/* transform: rotate(360deg); */
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 420px) {
+	.list {
+		gap: 15px;
+		font-size: 1.8rem;
+		bottom: 70px;
+	}
 }
