@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.2821052c.css",
+    "main.css": "/react-portfolio/static/css/main.a7d4feb2.css",
     "main.js": "/react-portfolio/static/js/main.7d4f2ecb.js",
     "static/media/Covid-Tracker.png": "/react-portfolio/static/media/Covid-Tracker.b14e5cbfbe7de6374bdf.png",
     "static/media/Image-gallery.png": "/react-portfolio/static/media/Image-gallery.e59a577d4b76f18eb97b.png",
@@ -15,11 +15,11 @@
     "static/media/Countries.png": "/react-portfolio/static/media/Countries.01e8450234cc23db9717.png",
     "static/media/drum-machine.png": "/react-portfolio/static/media/drum-machine.eae04e01a6ede21b6bb7.png",
     "index.html": "/react-portfolio/index.html",
-    "main.2821052c.css.map": "/react-portfolio/static/css/main.2821052c.css.map",
+    "main.a7d4feb2.css.map": "/react-portfolio/static/css/main.a7d4feb2.css.map",
     "main.7d4f2ecb.js.map": "/react-portfolio/static/js/main.7d4f2ecb.js.map"
   },
   "entrypoints": [
-    "static/css/main.2821052c.css",
+    "static/css/main.a7d4feb2.css",
     "static/js/main.7d4f2ecb.js"
   ]
 }
